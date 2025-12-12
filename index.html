@@ -1,9 +1,9 @@
 <!-- Save as index.html next to folder /img containing:
-     img/signa.png
+     img/apathy.png
      img/your_program.png
      img/your_site.png
      img/database.png
-     img/apathy.png
+     img/AlwaysApathiec.png
 -->
 <!doctype html>
 <html lang="ru">
@@ -181,7 +181,7 @@ nav{display:flex;align-items:center;justify-content:space-between;padding:18px 3
           <div class="thumb" id="featuredThumb">Apathy Exclusive Drop</div>
           <div style="display:flex;justify-content:space-between;align-items:center;margin-top:12px">
             <div>
-              <div style="font-weight:700">Signa by Femboy</div>
+              <div style="font-weight:700">Apathy T-shirt</div>
               <div class="small" style="margin-top:6px">Limited digital item • $13</div>
             </div>
             <div>
@@ -238,11 +238,11 @@ let WEBHOOK_URL = '';
 
 // products - paths unchanged
 let PRODUCTS = [
-  {id:'p1', title:'Signa by Femboy', price:13, desc:'Digital collectible — Signa by Femboy. Limited.', img:'img/signa.png'},
+  {id:'p1', title:'Apathy T-shirt', price:13, desc:'Digital collectible — Apathy T-shirt. Limited.', img:'img/apathy.png'},
   {id:'p2', title:'Your Programm', price:5, desc:'Handy little script or program template.', img:'img/your_program.png'},
   {id:'p3', title:'Your site', price:7, desc:'A minimal single-page site template.', img:'img/your_site.png'},
   {id:'p4', title:'Database', price:20, desc:'Small demo database file + schema.', img:'img/database.png'},
-  {id:'p5', title:'Apathy T-shirt', price:21, desc:'T-shirt apathy by @AlwaysApthiec', img:'img/apathy.png'}
+  {id:'p5', title:'Apathy T-shirt', price:20, desc:'T-Shirt AlwaysApathiec.', img:'img/AlwaysApathiec.png'}
 ];
 
 // override with saved products
@@ -716,7 +716,7 @@ goSection('home');
     hashText('admin').then(h=>{
       users['admin'] = {name:'admin', hash:h, isAdmin:true};
       localStorage.setItem('apathy_users', JSON.stringify(users));
-      console.log('Default admin created: username=admin password=admin (change it in localStorage)');
+      console.log('Default admin created: username=admin password=adminApathy (change it in localStorage)');
     });
   }
 })();
